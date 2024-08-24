@@ -1,0 +1,109 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+.change
+{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+ 
+}
+.logo
+{
+    font-weight: 700;
+    font-family: 'Geologica', sans-serif;
+
+}
+.contente
+{
+    max-width: 650px;
+    height: auto;
+    margin: 20px auto;
+    background-color: black;
+    border-radius: 10px;
+    padding-bottom: 40px;
+}
+.titre
+{
+    font-weight: bold;
+    margin-top: 15px; 
+    color: white;
+    font-family: 'Geologica', sans-serif;
+    padding-top: 35px;
+}
+#btn_5 {
+    background-color: black;
+    color: white;
+    max-width: 350px; /* Set a fixed width */
+    height: 60px; /* Set a fixed height */
+    font-weight: bold;
+    border-radius: 25px;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 10px;
+    letter-spacing: 1px;
+    border: 1px solid white;
+    display: flex; /* Use flexbox */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    margin: 0px auto;
+}
+a:hover{
+text-decoration: none;
+}
+
+.formulaire
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.formulaire input
+    {
+        background-color: black;
+        border: 1px black solid;
+        height: 40px;
+        background-color: rgb(20, 20, 20);
+        width: 300px;
+        height: 40px;
+        border-color: white;
+        margin-bottom: 10px;
+    }
+
+    #btn6 {
+        background-color: #0fb348;
+        color: black;
+        width: 250px; /* Set a fixed width */
+        height: 50px; /* Set a fixed height */
+        font-weight: bold;
+        border-radius: 25px;
+        font-family: 'Noto Sans', sans-serif;
+        margin: 10px;
+        letter-spacing: 1px;
+        display: flex; /* Use flexbox */
+        align-items: center; /* Center vertically */
+        justify-content: center; /* Center horizontally */
+        margin: 0px auto;
+    }
+
+    .ob:hover
+    {
+        text-decoration: underline;
+    }
+    .Mahdi
+    {
+        color: #242424 ; 
+        font-family: 'Geologica', sans-serif;
+    }
+    

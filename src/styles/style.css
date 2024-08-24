@@ -1,0 +1,254 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+ul{
+    list-style: none;
+    
+}
+ul li
+{
+    padding-bottom: 10px;
+
+}
+ul li a
+{
+    font-size: 17px;
+    font-weight: 700;
+    -webkit-tap-highlight-color: transparent;
+    color: #b3b3b3;
+    font-family: 'Noto Sans', sans-serif;
+}
+ul li a:hover{
+color: #b3b3b3;
+text-decoration: none;
+}
+.flex
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.flex h4{
+    color: #b3b3b3;
+    font-weight: 700;
+    -webkit-tap-highlight-color: transparent;
+}
+#plus
+{
+    font-size: 25px;
+    color: #b3b3b3;
+    -webkit-tap-highlight-color: transparent;
+}
+#btn
+{
+    background-color: white;
+    color: black;
+    padding: 12px;
+    font-weight: bold;
+    border-radius: 20px;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 10px;
+    letter-spacing: 1px;
+}
+#btn1
+{
+    background-color: white;
+    color: black;
+    padding: 12px;
+    font-weight: bold;
+    border-radius: 20px;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 10px;
+    letter-spacing: 1px;
+}
+a:hover{
+    text-decoration: none;
+}
+.content {
+    /* Set the desired height to enable scrolling */
+    height: 300px;
+    /* Add some content and overflow-y to enable scrolling */
+    overflow-y: scroll;
+    /* Apply custom scrollbar styling */
+    scrollbar-width: thin; /* "thin" for a thinner scrollbar or "auto" to keep the default width */
+    scrollbar-color: transparent transparent; /* Change the thumb and track colors to transparent */
+  }
+  
+  /* Custom scrollbar style */
+  .content::-webkit-scrollbar {
+    width: 6px; /* Set the width of the scrollbar */
+  }
+  
+  .content::-webkit-scrollbar-thumb {
+    background-color: transparent; /* Make the thumb transparent */
+  }
+  
+  .content::-webkit-scrollbar-track {
+    background-color: transparent; /* Make the track transparent */
+  }
+
+  .flex2
+  {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    align-items: center;
+    background-color: #080808;
+    width: 100%;
+    height: 60px;
+    margin-top: 15px;
+    border-radius: 10px;
+  }
+  #btn2
+{
+    background-color: #242424;
+    color: #b3b3b3;
+    padding: 12px;
+    font-weight: bold;
+    border-radius: 15px;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 10px;
+    letter-spacing: 1px;
+}
+.flexe
+{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.flexy
+{
+    display: flex;
+    justify-content: center;
+    margin-left: 15px;
+    
+}
+.change {
+    color: white;
+    width: 30px;
+    height: 30px;
+    border: 1px solid none;
+    background-color: black;
+    margin: 3px;
+    font-size: 20px;
+    border-radius: 50%; /* This makes the border circular */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-family: 'Noto Sans', sans-serif;
+    /* Add other styling for the .change elements if needed */
+  }
+  .flex4
+  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .image-container {
+    position: relative;
+    width: 100%;
+    padding-top: 105%; /* This is the aspect ratio, height (250px) / width (100%). Adjust as needed. */
+    overflow: hidden;
+  }
+  
+  .centered-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9
+  {
+    padding: 5px;
+  }
+  .text
+  {
+    margin-top: 15px ;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Noto Sans', sans-serif;
+    
+  }
+  .text2
+  {
+    color: #b3b3b3;
+    font-family: 'Noto Sans', sans-serif;
+  }
+  footer{
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    height: 70px;
+    width: 100%;
+    padding: 10px;
+  }
+  .flexeble
+  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #btn3
+{
+    background-color: white;
+    color: black;
+    padding: 12px;
+    font-weight: bold;
+    border-radius: 20px;
+    font-family: 'Noto Sans', sans-serif;
+    letter-spacing: 0px;
+    font-size: 13px;
+    font-weight: bolder;
+}
+@media screen and (max-width : 768px) {
+    footer{
+        height: auto;
+        padding-bottom: 5px;
+    }
+}
+#btn5
+{
+    background-color: #121212;
+    color: white;
+    padding: 10px 15px 10px 15px;
+    font-weight: bold;
+    border-radius: 25px;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 10px;
+    letter-spacing: 1px;
+    border: 1px solid white;
+   
+}
+
+@media (max-width: 322px) {
+  #btn1
+  {
+      background-color: white;
+      color: black;
+      padding: 10px;
+      font-weight: bold;
+      border-radius: 20px;
+      font-family: 'Noto Sans', sans-serif;
+      margin: 10px;
+      letter-spacing: 1px;
+      font-size: 10px;
+  }
+  #btn2
+  {
+      background-color: #242424;
+      color: #b3b3b3;
+      padding: 10px;
+      font-weight: bold;
+      border-radius: 15px;
+      font-family: 'Noto Sans', sans-serif;
+      margin: 10px;
+      letter-spacing: 1px;
+      font-size: 10px;
+  }
+}
