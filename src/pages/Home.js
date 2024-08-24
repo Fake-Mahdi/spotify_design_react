@@ -60,7 +60,7 @@ function Home() {
               <div className='custom-scrollbar' style={{ marginTop: '15px' }}>
               <div className="flex4">
                 <div className="text-left">
-                  <h3 className="title" style={{ color: 'white', fontWeight: 'bold' }}>Artistes Populaires</h3>
+                  <h4 className="title" style={{ color: 'white', fontWeight: 'bold' }}>Artistes Populaires</h4>
                 </div>
                 <div>
                   <a className="link"  style={{ color: '#b3b3b3', fontFamily: 'Noto Sans, sans-serif', fontSize: '15px' }} href="#">Tout afficher</a>
@@ -135,7 +135,7 @@ function Home() {
 
               <div className="flex4">
                 <div className="text-left">
-                  <h3 className="title" style={{ color: 'white', fontWeight: 'bold' }}>Playlists Soptify</h3>
+                  <h4 className="title" style={{ color: 'white', fontWeight: 'bold' }}>Playlists Soptify</h4>
                 </div>
                 <div>
                   <a className="link"  style={{ color: '#b3b3b3', fontFamily: 'Noto Sans, sans-serif', fontSize: '15px' }} href="#">Tout afficher</a>
@@ -223,7 +223,7 @@ function Home() {
 
               <div className="flex4">
                 <div className="text-left">
-                  <h3 className="title" style={{ color: 'white', fontWeight: 'bold' }}>Albums Populaires</h3>
+                  <h4 className="title" style={{ color: 'white', fontWeight: 'bold' }}>Albums Populaires</h4>
                 </div>
                 <div>
                   <a className="link"  style={{ color: '#b3b3b3', fontFamily: 'Noto Sans, sans-serif', fontSize: '15px' }} href="#">Tout afficher</a>
@@ -309,9 +309,9 @@ function Home() {
     </Swiper>
               </div>
 
-              <div style={{ margin: '15px'}} className="row" >
+              <div  style={{ margin: '15px'}} className="row text-center" >
 
-              <div className="col-lg-3 col-md-3 col-sm-6 col-xs-12" >
+              <div className="col-lg-3 col-md-3 col-sm-6 col-xs-12 text-center" >
               <h4 style={{ color: 'white' }}>Société</h4>
               <ul style={{ listStyle: 'none', padding: 0 }}>
               <li><a href="#" className="footer-link">A propos</a></li>
