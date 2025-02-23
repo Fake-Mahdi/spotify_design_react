@@ -24,7 +24,7 @@ function Home() {
                 <div><h4 style={{ fontFamily: 'Noto Sans, sans-serif' }}>Bibliothéque</h4></div>
                 <div id="plus">+</div>
               </div>
-              <div className="content" style={{ height: '200px', overflow: 'hidden', overflowY: 'scroll' }}>
+              <div className="content" style={{ height: '200px', overflow: 'hidden', overflowY: 'scroll' , height : "45vh"}}>
                 <div style={{ backgroundColor: '#242424', padding: '10px', borderRadius: '10px' }}>
                   <div className="text-left" style={{ color: 'white', fontWeight: '700', fontSize: '15px', marginBottom: '10px', fontFamily: 'Noto Sans, sans-serif' }}>Créez Votre prémiere Playlist</div>
                   <div className="text-left" style={{ color: 'white', fontSize: '14px', fontFamily: 'Noto Sans, sans-serif', marginBottom: '12px' }}>C'est simple, nous allons vous aidez</div>

@@ -99,7 +99,7 @@ a:hover{
   }
   .custom-scrollbar {
     margin: 10px;
-    height: 400px;
+    height: 80vh;
     overflow-y: scroll;
     scrollbar-width: thin; /* Firefox */
     scrollbar-color: transparent transparent; /* Firefox */

@@ -16,8 +16,8 @@ function Inscrire() {
       </div>
 
       <div className="content">
-        <div className="text-left" style={{ width: '85%', height: 'auto', paddingLeft: '15px', color: 'white', fontFamily: 'Geologica, sans-serif' }}>
-          <p style={{ fontWeight: 'bold', fontSize: '35px' }}>Inscrivez-vous pour commencer à écouter</p>
+        <div className="text-center" style={{ width: '100%', height: 'auto', color: 'white', fontFamily: 'Geologica, sans-serif' }}>
+          <p style={{ fontWeight: 'bold', fontSize: '48px' }}>Inscrivez- <br></br>vous pour<br></br> commencer à <br></br>écouter</p>
         </div>
         <div className="formulaire">
           <div>
